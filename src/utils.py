@@ -1,3 +1,4 @@
+
 def lift_metric_plot(model, X_test, y_test):
     all_pred = pd.DataFrame()
     all_pred["prob"] = model.predict_proba(X_test)[:, 1]
